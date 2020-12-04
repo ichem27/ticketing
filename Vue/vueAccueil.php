@@ -27,8 +27,7 @@
                      <strong class="d-inline-block mb-2 text-danger"><?= ($ticket['nometat']) ?></strong>
                   <?php endif; ?>
                   <h2><?= ($ticket['titre']) ?></h2>
-                  <div class="mb-1 text-muted">Nov 12</div>
-                  <a href="#">Continue reading</a>
+                  <div class="mb-1 text-muted"><?= $ticket['date'] ?></div>
                   <div class="btn-group btn-group-toggle" data-toggle="buttons">
 
                      <a class="btn btn-info" href="<?= "index.php?action=ticket&id=" . $ticket['id'] ?>"> Voir
